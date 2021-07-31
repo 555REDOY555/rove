@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* Navbar style */
+.conatiner{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.navbar{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+    
+}
+.navbar-item{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+}
+.aweasomeicon{
+    margin-right: 10px;
+}
+.aweasomeicon-2{
+   color: black;
+   margin-left: 20px;
+   size: 24px;
+}
+  
+/* Dropdow started */
+
+
+/* navbar style finish */
+
+
+/* Header image stylr started */
+.centered {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+/* header image style finish */
+ 
+/* middele video
+ */
+.ALL-H2{
+     text-align: center;
+     font-size: 36px;
+     margin-top: 50px;
+     margin-bottom: 40px;
+ }
+/* middle video finish */
+.select{
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+.BACKGROUND{
+    background-color: #8787878f;
+}
+
+/* ROVE STYLE */
+.rove-container{ 
+    text-align: center;
+    background-color: #87878715;
+    padding-top: 20px;
+    
+}
+.back{
+    background-color: #8787873f;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.rove{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+   
+}
+.rove:hover{
+    background-color: #F9AF09 ;
+}
+.border{
+    border: 4px solid #8787873f;
+}
+.grid-container {
+    display: grid;
+    grid-gap: 10px 20px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:300px 300px 300px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #8787873f;
+  }
+  
+  .grid-item {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
